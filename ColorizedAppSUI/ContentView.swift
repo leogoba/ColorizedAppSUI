@@ -23,9 +23,9 @@ struct ContentView: View {
                     greenColor: greenSliderValue,
                     blueColor: blueSliderValue
                 )
-                ColorSliderView(value: redSliderValue, color: .red)
-                ColorSliderView(value: greenSliderValue, color: .green)
-                ColorSliderView(value: blueSliderValue, color: .blue)
+                ColorSliderView(value: $redSliderValue, color: .red)
+                ColorSliderView(value: $greenSliderValue, color: .green)
+                ColorSliderView(value: $blueSliderValue, color: .blue)
                 
                 Spacer()
             }
