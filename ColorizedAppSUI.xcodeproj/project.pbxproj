@@ -13,6 +13,7 @@
 		525B09D22948B9BE009477AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525B09D12948B9BE009477AF /* Preview Assets.xcassets */; };
 		525B09D92948BB46009477AF /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525B09D82948BB46009477AF /* ColorSliderView.swift */; };
 		52830BE82948F321007E92DD /* ColorRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52830BE72948F321007E92DD /* ColorRectangleView.swift */; };
+		52C6E3B7294BAAE7005B45E7 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6E3B6294BAAE7005B45E7 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		525B09D12948B9BE009477AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		525B09D82948BB46009477AF /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 		52830BE72948F321007E92DD /* ColorRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRectangleView.swift; sourceTree = "<group>"; };
+		52C6E3B6294BAAE7005B45E7 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				525B09D02948B9BE009477AF /* Preview Content */,
 				525B09D82948BB46009477AF /* ColorSliderView.swift */,
 				52830BE72948F321007E92DD /* ColorRectangleView.swift */,
+				52C6E3B6294BAAE7005B45E7 /* TextFieldView.swift */,
 			);
 			path = ColorizedAppSUI;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				525B09CD2948B9BC009477AF /* ContentView.swift in Sources */,
+				52C6E3B7294BAAE7005B45E7 /* TextFieldView.swift in Sources */,
 				525B09CB2948B9BC009477AF /* ColorizedAppSUIApp.swift in Sources */,
 				52830BE82948F321007E92DD /* ColorRectangleView.swift in Sources */,
 				525B09D92948BB46009477AF /* ColorSliderView.swift in Sources */,
